@@ -45,3 +45,8 @@ variable "app_alb_sg_tags"{
         Component = "app_alb"
     }
 }
+variable "vpn_tags"{
+    default = {
+        Component = "vpn"
+    }
+}
